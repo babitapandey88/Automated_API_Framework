@@ -1,0 +1,4 @@
+requests
+pytest
+jsonschema
+pytest-html  # If you're using HTML reports
