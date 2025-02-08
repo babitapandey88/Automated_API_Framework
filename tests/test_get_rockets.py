@@ -4,9 +4,7 @@ import sys
 import requests
 import pytest
 from jsonschema import validate
-
 from tests.scema import rocket_schema
-
 # Ensure config.py can be imported
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import config
